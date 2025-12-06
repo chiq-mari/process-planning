@@ -9,22 +9,14 @@ El usuario ingresa un conjunto de tareas con su tiempo inicial (ti) y tiempo de 
 
 * Entrada dinámica del número de tareas.
 * Cada tarea contiene:
-
     * *ti* → tiempo inicial
-
     * *t* → tiempo de ejecución
-
     * *tf* → tiempo final calculado
-
     * *T, E, I* → métricas por tarea
-
     * *Completed* → estado de ejecución
 * Implementación completa de:
-
     * **FIFO** (First In, First Out)
-
     * **LIFO** (Last In, First Out)
-
     * **Round Robin** (con quantum definido por el usuario)
 * Comparación automática entre algoritmos usando la métrica *I* (Índice de rendimiento).
 * Medición del tiempo de ejecución real (perf_counter()).
